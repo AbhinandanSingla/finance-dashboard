@@ -1,4 +1,4 @@
-export const fetchStackData = async (stackId) => {
+export const fetchStackData = async (stackId: string) => {
     // Simulate network delay
     await new Promise((resolve) => setTimeout(resolve, 800));
     return {
